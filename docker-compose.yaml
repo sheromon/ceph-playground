@@ -10,7 +10,7 @@ networks:
 
 services:
     ceph:
-        image: ceph/daemon:${CEPH_CONTAINER_VERSION}
+        image: quay.io/ceph/daemon:${CEPH_CONTAINER_VERSION}
         command: demo
         hostname: ceph-demo
         ports:
