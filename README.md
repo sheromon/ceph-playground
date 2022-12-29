@@ -4,11 +4,13 @@ The main idea of this playground is to provide an easy to use Ceph environment t
 
 Please check the companion [blog post - Kick-start Development with Ceph](https://devops.datenkollektiv.de/kick-start-development-with-ceph.html) for more details.
 
-TL;DR
+## TL;DR
 
-Spin up the container with `docker compose -p ceph -d up ceph`.
+Spin up the container using docker compose by running `./up.sh`. Stop the container by running `./down.sh`.
+Clean up files from previous session by running `./cleanup.sh`.
 
-Use [Ceph Nano](http://localhost:5000/objects.html?bucket=sandbox) to access the bucket `sandbox`
+Go to http://localhost:5000 to use the Ceph Nano web interface.
+
 
 ## Examples
 
